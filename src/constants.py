@@ -1,5 +1,3 @@
-# src/constants.py
-
 """
 Pi Coin Configuration Constants
 This module contains constants related to the Pi Coin cryptocurrency.
@@ -9,7 +7,7 @@ This module contains constants related to the Pi Coin cryptocurrency.
 PI_COIN_SYMBOL = "Pi"  # Symbol for Pi Coin
 
 # Pi Coin Value
-PI_COIN_VALUE = 314159  # Fixed value of Pi Coin in USD
+PI_COIN_VALUE = 314159.00  # Fixed value of Pi Coin in USD
 
 # Pi Coin Supply
 PI_COIN_SUPPLY = 100_000_000_000  # Total supply of Pi Coin
@@ -62,5 +60,19 @@ PI_COIN_API_KEY_EXPIRATION = 3600  # API key expiration time in seconds
 # Pi Coin Regulatory Compliance
 PI_COIN_KYC_REQUIRED = True  # Whether KYC is required for transactions
 PI_COIN_COMPLIANCE_JURISDICTIONS = ["US", "EU", "UK"]  # Jurisdictions for compliance
+
+# Pi Coin Advanced Security Features
+PI_COIN_TWO_FACTOR_AUTHENTICATION = True  # Enable 2FA for user accounts
+PI_COIN_RATE_LIMITING_ENABLED = True  # Enable rate limiting for API requests
+PI_COIN_MAX_FAILED_LOGIN_ATTEMPTS = 5  # Maximum failed login attempts before lockout
+PI_COIN_ACCOUNT_LOCKOUT_DURATION = 300  # Lockout duration in seconds after failed attempts
+
+# Pi Coin Dynamic Parameters
+PI_COIN_DYNAMIC_FEE_ENABLED = True  # Enable dynamic transaction fees based on network load
+PI_COIN_FEE_ADJUSTMENT_INTERVAL = 60  # Interval in seconds for fee adjustments
+
+# Pi Coin Community Governance
+PI_COIN_VOTING_PERIOD_DAYS = 14  # Duration for governance voting in days
+PI_COIN_MIN_VOTE_THRESHOLD = 0.1  # Minimum percentage of votes required for a proposal to pass
 
 # Additional constants can be added here as needed
